@@ -1,5 +1,5 @@
 name: GitHub Actions Demo
-run-name: pipeline test 1.2 🚀
+run-name: main prd workflow 🚀
 on: [push]
 jobs:
 
