@@ -25,7 +25,7 @@ jobs:
   deploy-hmg:
     runs-on: ubuntu-latest
     environment:
-      name: dev
+      name: hmg
       url: https://dev.example.com
 
     needs: [deploy-dev]
@@ -35,7 +35,7 @@ jobs:
   deploy-prd:
     runs-on: ubuntu-latest
     environment:
-      name: dev
+      name: prd
       url: https://dev.example.com
 
     needs: [deploy-hmg]
