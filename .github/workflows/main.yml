@@ -1,5 +1,5 @@
-name: GitHub Actions Demo
-run-name: main prd workflow 🚀
+name: Astro Project Workdflow
+run-name: dev prd workflow🚀
 on: [push]
 jobs:
 
