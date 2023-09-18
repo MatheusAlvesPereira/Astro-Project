@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: Astro Project Workdflow
 run-name: dev prd workflow🚀
 on: [push]
 jobs:
